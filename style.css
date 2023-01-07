@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin: 30vh 10vw 30vh 10vw;
+
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+
+    width:70vw;
+}
+
+section{
+    margin-left:1vw;
+    margin-right:1vw;
+}
+
+#menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: 0px solid transparent;
+    border-radius: 5vw;
+    
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+    padding:5vh;
+
+    font-size:2rem;
+    width:30vw;
+}
+
+#lista-pacientes{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+    border-radius: 1vw;
+    width:40vw;
+
+    padding:3vw;
+
+    font-size: 1.3rem;
+}
+
+#div-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    padding-top:1vh;
+    padding-bottom:1vh;
+    
+}
+
+/*input nome paciente*/
+input{
+    width:25vw;
+    height: 5vh;
+
+    border: 0px solid transparent;
+}
+
+input::placeholder{
+    text-align:center;
+}
+
+/*BOTÕES*/
+button{
+    background-color: #FBAB7E;
+    border-radius: 0.5vw;
+    border: 0px solid transparent;
+    padding:1vw;
+}
+
+.btn-large{
+    font-size:1.3rem;
+}
+
+.btn-large:hover{
+    background-color: #41d078;
+    transition: 1s;
+}
+
+.btn-small{
+    font-size:1rem;
+}
+
+#btn-sair:hover{
+    background-color: rgb(235, 30, 30);
+    transition:1s;
+}
+
+#btn-confirma:hover{
+    background-color: #41d078;
+    transition: 1s;
+}
+
+.hide{
+    display:none;
+}
