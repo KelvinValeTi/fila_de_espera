@@ -129,8 +129,37 @@ span{
     padding:3px;
     color:white;
     font-size:1.6rem;
+    text-align: center;
 }
 
 .hide{
     display:none;
+}
+
+/*RESPONSIVIDADE*/
+@media (max-width:690px){
+    body{  
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  
+        margin: 20vh 10vw 30vh 10vw;
+    
+        width:80vw;
+    }
+
+    #menu{    
+        font-size:2rem;
+        width:70vw;
+    }
+    
+    #lista-pacientes{
+        width:70vw;
+        margin-top:1vh;
+    }
+    
+    /*input nome paciente*/
+    input{
+        width:50vw;
+    }
 }
