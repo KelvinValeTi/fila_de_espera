@@ -60,6 +60,15 @@ section{
     font-size: 1.3rem;
 }
 
+#pacientes{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+    font-size: 1.3rem;
+}
+
 #div-btn{
     display: flex;
     flex-direction: row;
@@ -75,7 +84,7 @@ section{
 input{
     width:25vw;
     height: 5vh;
-
+    padding-left:1vw;
     border: 0px solid transparent;
 }
 
@@ -89,6 +98,7 @@ button{
     border-radius: 0.5vw;
     border: 0px solid transparent;
     padding:1vw;
+    margin-bottom:1vh;
 }
 
 .btn-large{
@@ -112,6 +122,13 @@ button{
 #btn-confirma:hover{
     background-color: #41d078;
     transition: 1s;
+}
+
+span{
+    background-color:red;
+    padding:3px;
+    color:white;
+    font-size:1.6rem;
 }
 
 .hide{

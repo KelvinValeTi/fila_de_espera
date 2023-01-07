@@ -9,25 +9,23 @@
 </head>
 <body>
     <section id="menu">
-        <button class="btn-large" type="button">Novo Paciente</button>
+        <button id="novo-paciente" class="btn-large" type="button">Novo Paciente</button>
         <!--div dinamica-->
-        <div>
-            <input type="text" placeholder="Digite o nome do paciente">
+        <div id="div-input-paciente" class="hide">
+            <input type="text" id="nome-paciente" placeholder="Digite o nome do paciente">
+            <span id="erro-nome" class="hide">Digite um nome válido</span>
             <div id="div-btn">
                 <button id="btn-sair" class="btn-small" type="button">Sair</button>
                 <button id="btn-confirma" class="btn-small" type="button">Confirma</button>
             </div>
         </div>
-        <button class="btn-large" type="button">Chamar próximo paciente</button>
+        <button id="prox-paciente" class="btn-large" type="button">Chamar próximo paciente</button>
     </section>
 
     <section id="lista-pacientes">
         <h1>Pacientes:</h1>
+        <div id="pacientes"></div>
         <!--será adicionado dinamicamente-->
-        <p>1º mateus</p>
-        <p>1º mateus</p>
-        <p>1º mateus</p>
-        <p>1º mateus</p>
     </section>
 
     <!---SCRIPT-->
